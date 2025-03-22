@@ -1,0 +1,71 @@
+-------------------------------------------------------------------------------
+Test set: Runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 21, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 268.8 s <<< FAILURE! -- in Runner.TestRunner
+Runner.TestRunner.runScenario["Verify Mouse Hover functionality", "Automate LetsKodeIt Practice Page"](17) -- Time elapsed: 12.15 s <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a href="">...</a> is not clickable at point (282, 656). Other element would receive the click: <a href="#top">...</a>
+  (Session info: chrome=134.0.6998.89)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9c5198e5c83d2b5a862c7d759c005414, clickElement {id=f.240CC001FAD1BDB5998A1A90C0676752.d.BA46AEE846581E257C545B8D73586558.e.91}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\ADITYA\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55783}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55783/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (9c5198e5c83d2b5a862c7d759c005414)] -> xpath: //div[@class='mouse-hover-content']/a[text()='Reload']]
+Session ID: 9c5198e5c83d2b5a862c7d759c005414
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at pages.PracticePage.clickMouseHoverOption(PracticePage.java:337)
+	at stepDefinations.PracticePageSteps.iClickOnTheOption(PracticePageSteps.java:213)
+	at ✽.I click on the "Reload" option(file:///C:/Users/ADITYA/eclipse-workspace/Capstone_Project/./src/test/resources/features/PracticePage.feature:81)
+
+Runner.TestRunner.runScenario["Verify Web Table Data", "Automate LetsKodeIt Practice Page"](18) -- Time elapsed: 10.40 s <<< FAILURE!
+java.lang.AssertionError: Table data does not match!: lists don't have the same size expected [4] but found [3]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1419)
+	at org.testng.Assert.assertEquals(Assert.java:1383)
+	at org.testng.Assert.assertEquals(Assert.java:1630)
+	at stepDefinations.PracticePageSteps.theTableShouldContain(PracticePageSteps.java:241)
+	at ✽.the table should contain the following courses:(file:///C:/Users/ADITYA/eclipse-workspace/Capstone_Project/./src/test/resources/features/PracticePage.feature:86)
+
+Runner.TestRunner.runScenario["Successful Registration with valid credentials", "User Registration and Login"](19) -- Time elapsed: 27.26 s <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for Attribute or property 'aria-checked' to be 'true'. Current value: 'false' (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\ADITYA\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55914}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55914/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a3a325c0edd567208aa6f4ca0c3e8cf6
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at pages.SignUpPage.CapthaHandle(SignUpPage.java:79)
+	at stepDefinations.RegistratioSteps.the_user_ticks_the_captcha_checkbox(RegistratioSteps.java:54)
+	at ✽.the user ticks the captcha checkbox(file:///C:/Users/ADITYA/eclipse-workspace/Capstone_Project/./src/test/resources/features/RegistrationAndLogin.feature:12)
+
+Runner.TestRunner.runScenario["Successful Login with valid credentials", "User Registration and Login"](20) -- Time elapsed: 22.74 s <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for title to contain "My Courses". Current title: "Login" (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\ADITYA\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56006}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56006/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ef406ec0f9b4772e8a9fe8ebff292f2d
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at pages.LoginPage.isMyCoursesPageDisplayed(LoginPage.java:49)
+	at stepDefinations.LoginSteps.the_user_is_redirected_to_the_My_Courses_page(LoginSteps.java:34)
+	at ✽.the user is redirected to the My Courses page(file:///C:/Users/ADITYA/eclipse-workspace/Capstone_Project/./src/test/resources/features/RegistrationAndLogin.feature:25)
+

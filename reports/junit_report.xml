@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="19.364" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-03-22T03:41:52.309216400Z">
+<testcase classname="Home Page Verification" name="Verify the title and major sections of the Home Page" time="5.246">
+<system-out><![CDATA[
+Given I open the browser and navigated to home page.........................passed
+Then check the page have "offer for you" section............................passed
+Then check the page have "recomended" section...............................passed
+Then the search bar should be available.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Invalid Login Credentials Functionality" name="Verify error message for invalid login" time="3.205">
+<system-out><![CDATA[
+Given I am on the home page for invalid login testing.......................passed
+When I navigate to the login page and enter invalid credentials.............passed
+Then I should see an error message for invalid login........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Product Detail Page Verification" name="Verify product details and add to wishlist/cart" time="3.075">
+<system-out><![CDATA[
+Given I am on the home page for product detail testing......................passed
+When I search for "Smartphone" and click the product link...................passed
+Then the product name contains "Smartphone".................................passed
+Then the product description is "Newest Tricentis smartphone"...............passed
+Then the product price is "100.00"..........................................passed
+When I click the add to wishlist button.....................................passed
+When I click the add to cart button.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search Functionality" name="Perform advanced search" time="2.866">
+<system-out><![CDATA[
+Given I am on the home page.................................................passed
+When I enter "phone" in the search box and click search.....................passed
+When I click the advanced search checkbox...................................passed
+When I select "Computers" from the category dropdown........................passed
+When I enter price range from "100" to "200"................................passed
+When I click the search result button.......................................passed
+Then search results should be displayed.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Shopping Cart Functionality" name="Verify shopping cart operations" time="3.558">
+<system-out><![CDATA[
+Given I am on the home page for shopping cart testing.......................passed
+When I search for "smartphone" and add the product to cart..................passed
+When I go to the shopping cart..............................................passed
+When I remove the product from cart.........................................passed
+Then the shopping cart is empty.............................................passed
+]]></system-out>
+</testcase>
+</testsuite>

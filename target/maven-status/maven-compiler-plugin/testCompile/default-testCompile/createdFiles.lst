@@ -1,0 +1,14 @@
+pages\PracticePage.class
+pages\LoginPage.class
+utils\Reports.class
+pages\HomePage.class
+stepDefinations\HomePageSteps.class
+Runner\TestRunner.class
+stepDefinations\PracticePageSteps.class
+stepDefinations\LoginSteps.class
+stepDefinations\InavlidLoginSteps.class
+utils\Base.class
+stepDefinations\RegistratioSteps.class
+pages\SignUpPage.class
+Hooks\Hooks.class
+utils\PropertyReader.class

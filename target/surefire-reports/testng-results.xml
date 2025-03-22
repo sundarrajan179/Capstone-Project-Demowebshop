@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="21" passed="17" failed="4" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-16T15:14:10 IST" name="Surefire suite" finished-at="2025-03-16T15:18:38 IST" duration-ms="267979">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@609e8838]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-03-16T15:14:10 IST" name="Surefire test" finished-at="2025-03-16T15:18:38 IST" duration-ms="267979">
+      <class name="Runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runner.TestRunner@609e8838]" started-at="2025-03-16T15:14:10 IST" name="setUpClass" finished-at="2025-03-16T15:14:11 IST" duration-ms="873" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4552f905]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@609e8838]" started-at="2025-03-16T15:14:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-16T15:14:25 IST" duration-ms="14170" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the title and major sections of the Home Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Home Page Verification"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@609e8838]" started-at="2025-03-16T15:14:25 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-16T15:14:36 IST" duration-ms="10897" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user can select different radio buttons"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Automate LetsKodeIt Practice Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@609e8838]" started-at="2025-03-16T15:14:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-16T15:14:47 IST" duration-ms="10996" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user can select different radio buttons"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Automate LetsKodeIt Practice Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@609e8838]" started-at="2025-03-16T15:14:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-16T15:14:58 IST" duration-ms="11093" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user can select different radio buttons"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Automate LetsKodeIt Practice Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@609e8838]" started-at="2025-03-16T15:14:58 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-16T15:15:09 IST" duration-ms="10444" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["CheckBox Verify user can check and uncheck checkboxes"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Automate LetsKodeIt Practice Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@609e8838]" started-at="2025-03-16T15:15:09 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-16T15:15:19 IST" duration-ms="10608" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["CheckBox Verify user can check and uncheck checkboxes"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Automate LetsKodeIt Practice Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@609e8838]" started-at="2025-03-16T15:15:19 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-16T15:15:31 IST" duration-ms="11346" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["CheckBox Verify user can check and uncheck checkboxes"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Automate LetsKodeIt Practice Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@609e8838]" started-at="2025-03-16T15:15:31 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-16T15:15:42 IST" duration-ms="10978" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user can open a new window and switch back"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Automate LetsKodeIt Practice Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@609e8838]" started-at="2025-03-16T15:15:42 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-16T15:15:53 IST" duration-ms="11133" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user can open a new tab and switch back"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Automate LetsKodeIt Practice Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@609e8838]" started-at="2025-03-16T15:15:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-16T15:16:03 IST" duration-ms="10507" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify user can select from the  drop down menu"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Automate LetsKodeIt Practice Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@609e8838]" started-at="2025-03-16T15:16:03 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-16T15:16:14 IST" duration-ms="10439" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify user can select from the  drop down menu"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Automate LetsKodeIt Practice Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@609e8838]" started-at="2025-03-16T15:16:14 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-16T15:16:24 IST" duration-ms="10655" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify user can select from the  drop down menu"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Automate LetsKodeIt Practice Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@609e8838]" started-at="2025-03-16T15:16:24 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-16T15:16:36 IST" duration-ms="11421" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user can select multiple options from the Multipleselectoption"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Automate LetsKodeIt Practice Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@609e8838]" started-at="2025-03-16T15:16:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-16T15:16:47 IST" duration-ms="11296" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user can Disable and Enable the input field"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Automate LetsKodeIt Practice Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@609e8838]" started-at="2025-03-16T15:16:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-16T15:16:58 IST" duration-ms="11440" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user can hide and show the input field"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Automate LetsKodeIt Practice Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@609e8838]" started-at="2025-03-16T15:16:58 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-16T15:17:10 IST" duration-ms="11148" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Alert and Confirm popups"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Automate LetsKodeIt Practice Page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@609e8838]" started-at="2025-03-16T15:17:10 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-16T15:17:22 IST" duration-ms="12160" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Mouse Hover functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Automate LetsKodeIt Practice Page"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a href="">...</a> is not clickable at point (282, 656). Other element would receive the click: <a href="#top">...</a>
+  (Session info: chrome=134.0.6998.89)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9c5198e5c83d2b5a862c7d759c005414, clickElement {id=f.240CC001FAD1BDB5998A1A90C0676752.d.BA46AEE846581E257C545B8D73586558.e.91}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\ADITYA\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55783}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55783/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (9c5198e5c83d2b5a862c7d759c005414)] -> xpath: //div[@class='mouse-hover-content']/a[text()='Reload']]
+Session ID: 9c5198e5c83d2b5a862c7d759c005414]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="">...</a> is not clickable at point (282, 656). Other element would receive the click: <a href="#top">...</a>
+  (Session info: chrome=134.0.6998.89)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9c5198e5c83d2b5a862c7d759c005414, clickElement {id=f.240CC001FAD1BDB5998A1A90C0676752.d.BA46AEE846581E257C545B8D73586558.e.91}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\ADITYA\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55783}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55783/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (9c5198e5c83d2b5a862c7d759c005414)] -> xpath: //div[@class='mouse-hover-content']/a[text()='Reload']]
+Session ID: 9c5198e5c83d2b5a862c7d759c005414
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at pages.PracticePage.clickMouseHoverOption(PracticePage.java:337)
+at stepDefinations.PracticePageSteps.iClickOnTheOption(PracticePageSteps.java:213)
+at ✽.I click on the "Reload" option(file:///C:/Users/ADITYA/eclipse-workspace/Capstone_Project/./src/test/resources/features/PracticePage.feature:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@609e8838]" started-at="2025-03-16T15:17:22 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-16T15:17:32 IST" duration-ms="10398" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Web Table Data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Automate LetsKodeIt Practice Page"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Table data does not match!: lists don't have the same size expected [4] but found [3]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Table data does not match!: lists don't have the same size expected [4] but found [3]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1419)
+at org.testng.Assert.assertEquals(Assert.java:1383)
+at org.testng.Assert.assertEquals(Assert.java:1630)
+at stepDefinations.PracticePageSteps.theTableShouldContain(PracticePageSteps.java:241)
+at ✽.the table should contain the following courses:(file:///C:/Users/ADITYA/eclipse-workspace/Capstone_Project/./src/test/resources/features/PracticePage.feature:86)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@609e8838]" started-at="2025-03-16T15:17:32 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-16T15:17:59 IST" duration-ms="27265" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful Registration with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Registration and Login"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for Attribute or property 'aria-checked' to be 'true'. Current value: 'false' (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\ADITYA\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55914}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55914/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a3a325c0edd567208aa6f4ca0c3e8cf6]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for Attribute or property 'aria-checked' to be 'true'. Current value: 'false' (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\ADITYA\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55914}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55914/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a3a325c0edd567208aa6f4ca0c3e8cf6
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at pages.SignUpPage.CapthaHandle(SignUpPage.java:79)
+at stepDefinations.RegistratioSteps.the_user_ticks_the_captcha_checkbox(RegistratioSteps.java:54)
+at ✽.the user ticks the captcha checkbox(file:///C:/Users/ADITYA/eclipse-workspace/Capstone_Project/./src/test/resources/features/RegistrationAndLogin.feature:12)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@609e8838]" started-at="2025-03-16T15:17:59 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-16T15:18:22 IST" duration-ms="22739" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful Login with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Registration and Login"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for title to contain "My Courses". Current title: "Login" (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\ADITYA\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56006}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56006/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ef406ec0f9b4772e8a9fe8ebff292f2d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to contain "My Courses". Current title: "Login" (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\ADITYA\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56006}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56006/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ef406ec0f9b4772e8a9fe8ebff292f2d
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at pages.LoginPage.isMyCoursesPageDisplayed(LoginPage.java:49)
+at stepDefinations.LoginSteps.the_user_is_redirected_to_the_My_Courses_page(LoginSteps.java:34)
+at ✽.the user is redirected to the My Courses page(file:///C:/Users/ADITYA/eclipse-workspace/Capstone_Project/./src/test/resources/features/RegistrationAndLogin.feature:25)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.TestRunner@609e8838]" started-at="2025-03-16T15:18:22 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-03-16T15:18:38 IST" duration-ms="15371" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful Login with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Registration and Login"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.TestRunner@609e8838]" started-at="2025-03-16T15:18:38 IST" name="tearDownClass" finished-at="2025-03-16T15:18:38 IST" duration-ms="535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner.TestRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

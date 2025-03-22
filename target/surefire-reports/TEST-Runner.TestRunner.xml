@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="Runner.TestRunner" time="268.801" tests="21" errors="0" skipped="0" failures="4">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\ADITYA\eclipse-workspace\Capstone_Project\target\test-classes;C:\Users\ADITYA\eclipse-workspace\Capstone_Project\target\classes;C:\Users\ADITYA\.m2\repository\org\slf4j\slf4j-simple\2.0.7\slf4j-simple-2.0.7.jar;C:\Users\ADITYA\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;C:\Users\ADITYA\.m2\repository\io\cucumber\cucumber-java\7.21.1\cucumber-java-7.21.1.jar;C:\Users\ADITYA\.m2\repository\io\cucumber\cucumber-core\7.21.1\cucumber-core-7.21.1.jar;C:\Users\ADITYA\.m2\repository\io\cucumber\cucumber-gherkin\7.21.1\cucumber-gherkin-7.21.1.jar;C:\Users\ADITYA\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.21.1\cucumber-gherkin-messages-7.21.1.jar;C:\Users\ADITYA\.m2\repository\io\cucumber\gherkin\31.0.0\gherkin-31.0.0.jar;C:\Users\ADITYA\.m2\repository\io\cucumber\messages\27.2.0\messages-27.2.0.jar;C:\Users\ADITYA\.m2\repository\io\cucumber\testng-xml-formatter\0.3.1\testng-xml-formatter-0.3.1.jar;C:\Users\ADITYA\.m2\repository\io\cucumber\query\13.2.0\query-13.2.0.jar;C:\Users\ADITYA\.m2\repository\io\cucumber\tag-expressions\6.1.2\tag-expressions-6.1.2.jar;C:\Users\ADITYA\.m2\repository\io\cucumber\cucumber-expressions\18.0.1\cucumber-expressions-18.0.1.jar;C:\Users\ADITYA\.m2\repository\io\cucumber\datatable\7.21.1\datatable-7.21.1.jar;C:\Users\ADITYA\.m2\repository\io\cucumber\cucumber-plugin\7.21.1\cucumber-plugin-7.21.1.jar;C:\Users\ADITYA\.m2\repository\io\cucumber\docstring\7.21.1\docstring-7.21.1.jar;C:\Users\ADITYA\.m2\repository\io\cucumber\html-formatter\21.9.0\html-formatter-21.9.0.jar;C:\Users\ADITYA\.m2\repository\io\cucumber\junit-xml-formatter\0.7.1\junit-xml-formatter-0.7.1.jar;C:\Users\ADITYA\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\ADITYA\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ADITYA\.m2\repository\io\cucumber\cucumber-testng\7.21.1\cucumber-testng-7.21.1.jar;C:\Users\ADITYA\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\ADITYA\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\ADITYA\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\ADITYA\.m2\repository\org\seleniumhq\selenium\selenium-java\4.19.1\selenium-java-4.19.1.jar;C:\Users\ADITYA\.m2\repository\org\seleniumhq\selenium\selenium-api\4.19.1\selenium-api-4.19.1.jar;C:\Users\ADITYA\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.19.1\selenium-chrome-driver-4.19.1.jar;C:\Users\ADITYA\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\ADITYA\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.19.1\selenium-chromium-driver-4.19.1.jar;C:\Users\ADITYA\.m2\repository\org\seleniumhq\selenium\selenium-json\4.19.1\selenium-json-4.19.1.jar;C:\Users\ADITYA\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.19.1\selenium-manager-4.19.1.jar;C:\Users\ADITYA\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.19.1\selenium-devtools-v121-4.19.1.jar;C:\Users\ADITYA\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.19.1\selenium-devtools-v122-4.19.1.jar;C:\Users\ADITYA\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v123\4.19.1\selenium-devtools-v123-4.19.1.jar;C:\Users\ADITYA\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.19.1\selenium-devtools-v85-4.19.1.jar;C:\Users\ADITYA\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.19.1\selenium-edge-driver-4.19.1.jar;C:\Users\ADITYA\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.19.1\selenium-firefox-driver-4.19.1.jar;C:\Users\ADITYA\.m2\repository\org\seleniumhq\selenium\selenium-http\4.19.1\selenium-http-4.19.1.jar;C:\Users\ADITYA\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\ADITYA\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.19.1\selenium-ie-driver-4.19.1.jar;C:\Users\ADITYA\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.19.1\selenium-remote-driver-4.19.1.jar;C:\Users\ADITYA\.m2\repository\com\google\guava\guava\33.1.0-jre\guava-33.1.0-jre.jar;C:\Users\ADITYA\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\ADITYA\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\ADITYA\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\ADITYA\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\ADITYA\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\ADITYA\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\ADITYA\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\ADITYA\.m2\repository\io\opentelemetry\opentelemetry-api\1.36.0\opentelemetry-api-1.36.0.jar;C:\Users\ADITYA\.m2\repository\io\opentelemetry\opentelemetry-context\1.36.0\opentelemetry-context-1.36.0.jar;C:\Users\ADITYA\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.36.0\opentelemetry-exporter-logging-1.36.0.jar;C:\Users\ADITYA\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.36.0\opentelemetry-sdk-common-1.36.0.jar;C:\Users\ADITYA\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.36.0\opentelemetry-sdk-extension-autoconfigure-spi-1.36.0.jar;C:\Users\ADITYA\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.36.0\opentelemetry-sdk-extension-autoconfigure-1.36.0.jar;C:\Users\ADITYA\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.36.0-alpha\opentelemetry-api-events-1.36.0-alpha.jar;C:\Users\ADITYA\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.36.0\opentelemetry-sdk-trace-1.36.0.jar;C:\Users\ADITYA\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.36.0-alpha\opentelemetry-extension-incubator-1.36.0-alpha.jar;C:\Users\ADITYA\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.36.0\opentelemetry-sdk-1.36.0.jar;C:\Users\ADITYA\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.36.0\opentelemetry-sdk-metrics-1.36.0.jar;C:\Users\ADITYA\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.36.0\opentelemetry-sdk-logs-1.36.0.jar;C:\Users\ADITYA\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\ADITYA\.m2\repository\org\seleniumhq\selenium\selenium-os\4.19.1\selenium-os-4.19.1.jar;C:\Users\ADITYA\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\ADITYA\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.19.1\selenium-safari-driver-4.19.1.jar;C:\Users\ADITYA\.m2\repository\org\seleniumhq\selenium\selenium-support\4.19.1\selenium-support-4.19.1.jar;C:\Users\ADITYA\.m2\repository\org\apache\poi\poi\5.4.0\poi-5.4.0.jar;C:\Users\ADITYA\.m2\repository\commons-codec\commons-codec\1.17.1\commons-codec-1.17.1.jar;C:\Users\ADITYA\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\ADITYA\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\ADITYA\.m2\repository\commons-io\commons-io\2.18.0\commons-io-2.18.0.jar;C:\Users\ADITYA\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\ADITYA\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\ADITYA\.m2\repository\org\apache\poi\poi-ooxml\5.4.0\poi-ooxml-5.4.0.jar;C:\Users\ADITYA\.m2\repository\org\apache\poi\poi-ooxml-lite\5.4.0\poi-ooxml-lite-5.4.0.jar;C:\Users\ADITYA\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar;C:\Users\ADITYA\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar;C:\Users\ADITYA\.m2\repository\org\apache\commons\commons-lang3\3.16.0\commons-lang3-3.16.0.jar;C:\Users\ADITYA\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\ADITYA\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\ADITYA\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\ADITYA\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\ADITYA\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\ADITYA\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\ADITYA\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\ADITYA\.m2\repository\io\qameta\allure\allure-testng\2.29.1\allure-testng-2.29.1.jar;C:\Users\ADITYA\.m2\repository\io\qameta\allure\allure-java-commons\2.29.1\allure-java-commons-2.29.1.jar;C:\Users\ADITYA\.m2\repository\io\qameta\allure\allure-model\2.29.1\allure-model-2.29.1.jar;C:\Users\ADITYA\.m2\repository\io\qameta\allure\allure-test-filter\2.29.1\allure-test-filter-2.29.1.jar;C:\Users\ADITYA\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.29.1\allure-cucumber7-jvm-2.29.1.jar;C:\Users\ADITYA\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Users\ADITYA\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_23.0.1.v20241024-1700\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\ADITYA\AppData\Local\Temp\surefire5297424206888588467\surefirebooter-20250316151408863_3.jar C:\Users\ADITYA\AppData\Local\Temp\surefire5297424206888588467 2025-03-16T15-14-08_646-jvmRun1 surefire-20250316151408863_1tmp surefire_0-20250316151408863_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\ADITYA\eclipse-workspace\Capstone_Project\target\test-classes;C:\Users\ADITYA\eclipse-workspace\Capstone_Project\target\classes;C:\Users\ADITYA\.m2\repository\org\slf4j\slf4j-simple\2.0.7\slf4j-simple-2.0.7.jar;C:\Users\ADITYA\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;C:\Users\ADITYA\.m2\repository\io\cucumber\cucumber-java\7.21.1\cucumber-java-7.21.1.jar;C:\Users\ADITYA\.m2\repository\io\cucumber\cucumber-core\7.21.1\cucumber-core-7.21.1.jar;C:\Users\ADITYA\.m2\repository\io\cucumber\cucumber-gherkin\7.21.1\cucumber-gherkin-7.21.1.jar;C:\Users\ADITYA\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.21.1\cucumber-gherkin-messages-7.21.1.jar;C:\Users\ADITYA\.m2\repository\io\cucumber\gherkin\31.0.0\gherkin-31.0.0.jar;C:\Users\ADITYA\.m2\repository\io\cucumber\messages\27.2.0\messages-27.2.0.jar;C:\Users\ADITYA\.m2\repository\io\cucumber\testng-xml-formatter\0.3.1\testng-xml-formatter-0.3.1.jar;C:\Users\ADITYA\.m2\repository\io\cucumber\query\13.2.0\query-13.2.0.jar;C:\Users\ADITYA\.m2\repository\io\cucumber\tag-expressions\6.1.2\tag-expressions-6.1.2.jar;C:\Users\ADITYA\.m2\repository\io\cucumber\cucumber-expressions\18.0.1\cucumber-expressions-18.0.1.jar;C:\Users\ADITYA\.m2\repository\io\cucumber\datatable\7.21.1\datatable-7.21.1.jar;C:\Users\ADITYA\.m2\repository\io\cucumber\cucumber-plugin\7.21.1\cucumber-plugin-7.21.1.jar;C:\Users\ADITYA\.m2\repository\io\cucumber\docstring\7.21.1\docstring-7.21.1.jar;C:\Users\ADITYA\.m2\repository\io\cucumber\html-formatter\21.9.0\html-formatter-21.9.0.jar;C:\Users\ADITYA\.m2\repository\io\cucumber\junit-xml-formatter\0.7.1\junit-xml-formatter-0.7.1.jar;C:\Users\ADITYA\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\ADITYA\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ADITYA\.m2\repository\io\cucumber\cucumber-testng\7.21.1\cucumber-testng-7.21.1.jar;C:\Users\ADITYA\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\ADITYA\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\ADITYA\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\ADITYA\.m2\repository\org\seleniumhq\selenium\selenium-java\4.19.1\selenium-java-4.19.1.jar;C:\Users\ADITYA\.m2\repository\org\seleniumhq\selenium\selenium-api\4.19.1\selenium-api-4.19.1.jar;C:\Users\ADITYA\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.19.1\selenium-chrome-driver-4.19.1.jar;C:\Users\ADITYA\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\ADITYA\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.19.1\selenium-chromium-driver-4.19.1.jar;C:\Users\ADITYA\.m2\repository\org\seleniumhq\selenium\selenium-json\4.19.1\selenium-json-4.19.1.jar;C:\Users\ADITYA\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.19.1\selenium-manager-4.19.1.jar;C:\Users\ADITYA\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.19.1\selenium-devtools-v121-4.19.1.jar;C:\Users\ADITYA\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.19.1\selenium-devtools-v122-4.19.1.jar;C:\Users\ADITYA\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v123\4.19.1\selenium-devtools-v123-4.19.1.jar;C:\Users\ADITYA\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.19.1\selenium-devtools-v85-4.19.1.jar;C:\Users\ADITYA\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.19.1\selenium-edge-driver-4.19.1.jar;C:\Users\ADITYA\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.19.1\selenium-firefox-driver-4.19.1.jar;C:\Users\ADITYA\.m2\repository\org\seleniumhq\selenium\selenium-http\4.19.1\selenium-http-4.19.1.jar;C:\Users\ADITYA\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\ADITYA\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.19.1\selenium-ie-driver-4.19.1.jar;C:\Users\ADITYA\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.19.1\selenium-remote-driver-4.19.1.jar;C:\Users\ADITYA\.m2\repository\com\google\guava\guava\33.1.0-jre\guava-33.1.0-jre.jar;C:\Users\ADITYA\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\ADITYA\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\ADITYA\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\ADITYA\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\ADITYA\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\ADITYA\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\ADITYA\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\ADITYA\.m2\repository\io\opentelemetry\opentelemetry-api\1.36.0\opentelemetry-api-1.36.0.jar;C:\Users\ADITYA\.m2\repository\io\opentelemetry\opentelemetry-context\1.36.0\opentelemetry-context-1.36.0.jar;C:\Users\ADITYA\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.36.0\opentelemetry-exporter-logging-1.36.0.jar;C:\Users\ADITYA\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.36.0\opentelemetry-sdk-common-1.36.0.jar;C:\Users\ADITYA\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.36.0\opentelemetry-sdk-extension-autoconfigure-spi-1.36.0.jar;C:\Users\ADITYA\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.36.0\opentelemetry-sdk-extension-autoconfigure-1.36.0.jar;C:\Users\ADITYA\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.36.0-alpha\opentelemetry-api-events-1.36.0-alpha.jar;C:\Users\ADITYA\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.36.0\opentelemetry-sdk-trace-1.36.0.jar;C:\Users\ADITYA\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.36.0-alpha\opentelemetry-extension-incubator-1.36.0-alpha.jar;C:\Users\ADITYA\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.36.0\opentelemetry-sdk-1.36.0.jar;C:\Users\ADITYA\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.36.0\opentelemetry-sdk-metrics-1.36.0.jar;C:\Users\ADITYA\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.36.0\opentelemetry-sdk-logs-1.36.0.jar;C:\Users\ADITYA\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\ADITYA\.m2\repository\org\seleniumhq\selenium\selenium-os\4.19.1\selenium-os-4.19.1.jar;C:\Users\ADITYA\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\ADITYA\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.19.1\selenium-safari-driver-4.19.1.jar;C:\Users\ADITYA\.m2\repository\org\seleniumhq\selenium\selenium-support\4.19.1\selenium-support-4.19.1.jar;C:\Users\ADITYA\.m2\repository\org\apache\poi\poi\5.4.0\poi-5.4.0.jar;C:\Users\ADITYA\.m2\repository\commons-codec\commons-codec\1.17.1\commons-codec-1.17.1.jar;C:\Users\ADITYA\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\ADITYA\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\ADITYA\.m2\repository\commons-io\commons-io\2.18.0\commons-io-2.18.0.jar;C:\Users\ADITYA\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\ADITYA\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\ADITYA\.m2\repository\org\apache\poi\poi-ooxml\5.4.0\poi-ooxml-5.4.0.jar;C:\Users\ADITYA\.m2\repository\org\apache\poi\poi-ooxml-lite\5.4.0\poi-ooxml-lite-5.4.0.jar;C:\Users\ADITYA\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar;C:\Users\ADITYA\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar;C:\Users\ADITYA\.m2\repository\org\apache\commons\commons-lang3\3.16.0\commons-lang3-3.16.0.jar;C:\Users\ADITYA\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\ADITYA\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\ADITYA\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\ADITYA\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\ADITYA\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\ADITYA\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\ADITYA\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\ADITYA\.m2\repository\io\qameta\allure\allure-testng\2.29.1\allure-testng-2.29.1.jar;C:\Users\ADITYA\.m2\repository\io\qameta\allure\allure-java-commons\2.29.1\allure-java-commons-2.29.1.jar;C:\Users\ADITYA\.m2\repository\io\qameta\allure\allure-model\2.29.1\allure-model-2.29.1.jar;C:\Users\ADITYA\.m2\repository\io\qameta\allure\allure-test-filter\2.29.1\allure-test-filter-2.29.1.jar;C:\Users\ADITYA\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.29.1\allure-cucumber7-jvm-2.29.1.jar;C:\Users\ADITYA\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ADITYA"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-10-15"/>
+    <property name="java.home" value="C:\Users\ADITYA\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_23.0.1.v20241024-1700\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\ADITYA\eclipse-workspace\Capstone_Project"/>
+    <property name="style.color" value="always"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\ADITYA\AppData\Local\Temp\surefire5297424206888588467\surefirebooter-20250316151408863_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="23.0.1+11"/>
+    <property name="user.name" value="ADITYA"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-23.0.1+11"/>
+    <property name="localRepository" value="C:\Users\ADITYA\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADITYA\AppData\Local\Temp\"/>
+    <property name="java.version" value="23.0.1"/>
+    <property name="user.dir" value="C:\Users\ADITYA\eclipse-workspace\Capstone_Project"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\ADITYA\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_23.0.1.v20241024-1700\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/ADITYA/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_23.0.1.v20241024-1700/jre/bin/server;C:/Users/ADITYA/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_23.0.1.v20241024-1700/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-17\bin;C:\Program Files\Git\cmd;C:\Users\ADITYA\OneDrive\Desktop\AllurReports\allure-2.33.0\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\ADITYA\AppData\Local\Microsoft\WindowsApps;C:\Users\ADITYA\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ADITYA\AppData\Roaming\npm;;C:\WINDOWS\System32;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="23.0.1+11"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Verify the title and major sections of the Home Page&quot;, &quot;Home Page Verification&quot;](1)" classname="Runner.TestRunner" time="14.169">
+    <system-out><![CDATA[
+Scenario: Verify the title and major sections of the Home Page                                 &amp#27;[90m# src/test/resources/features/Homepage.feature:3&amp#27;[0m
+The browser is opened and Home Page is initialized.
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI open the browser and navigated to home page&amp#27;[0m                                          &amp#27;[90m# stepDefinations.HomePageSteps.i_open_the_browser()&amp#27;[0m
+Actual Page Title: Home Page
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe page title should be &amp#27;[0m&amp#27;[32m&amp#27;[1m"Home Page"&amp#27;[0m                                                    &amp#27;[90m# stepDefinations.HomePageSteps.the_page_title_should_be(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe sections &amp#27;[0m&amp#27;[32m&amp#27;[1m"HOME"&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m"ALL COURSES"&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m"INTERVIEW"&amp#27;[0m&amp#27;[32m, &amp#27;[0m&amp#27;[32m&amp#27;[1m"SUPPORT"&amp#27;[0m&amp#27;[32m, and &amp#27;[0m&amp#27;[32m&amp#27;[1m"BLOG"&amp#27;[0m&amp#27;[32m should be visible&amp#27;[0m &amp#27;[90m# stepDefinations.HomePageSteps.the_sections_and_should_be_visible(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 16, 2025 3:14:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 134
+Mar 16, 2025 3:14:13 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 134.0.6998.89. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.19.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify user can select different radio buttons&quot;, &quot;Automate LetsKodeIt Practice Page&quot;](2)" classname="Runner.TestRunner" time="10.874">
+    <system-out><![CDATA[
+Scenario Outline: Verify user can select different radio buttons &amp#27;[90m# src/test/resources/features/PracticePage.feature:10&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI select the &amp#27;[0m&amp#27;[32m&amp#27;[1m"BMW"&amp#27;[0m&amp#27;[32m radio button&amp#27;[0m                           &amp#27;[90m# stepDefinations.PracticePageSteps.i_select_the_radio_button(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe &amp#27;[0m&amp#27;[32m&amp#27;[1m"BMW"&amp#27;[0m&amp#27;[32m radio button should be selected&amp#27;[0m                 &amp#27;[90m# stepDefinations.PracticePageSteps.the_radio_button_should_be_selected(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 16, 2025 3:14:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 134
+Mar 16, 2025 3:14:26 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 134.0.6998.89. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.19.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify user can select different radio buttons&quot;, &quot;Automate LetsKodeIt Practice Page&quot;](3)" classname="Runner.TestRunner" time="10.996">
+    <system-out><![CDATA[
+Scenario Outline: Verify user can select different radio buttons &amp#27;[90m# src/test/resources/features/PracticePage.feature:11&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI select the &amp#27;[0m&amp#27;[32m&amp#27;[1m"Benz"&amp#27;[0m&amp#27;[32m radio button&amp#27;[0m                          &amp#27;[90m# stepDefinations.PracticePageSteps.i_select_the_radio_button(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe &amp#27;[0m&amp#27;[32m&amp#27;[1m"Benz"&amp#27;[0m&amp#27;[32m radio button should be selected&amp#27;[0m                &amp#27;[90m# stepDefinations.PracticePageSteps.the_radio_button_should_be_selected(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 16, 2025 3:14:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 134
+Mar 16, 2025 3:14:37 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 134.0.6998.89. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.19.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify user can select different radio buttons&quot;, &quot;Automate LetsKodeIt Practice Page&quot;](4)" classname="Runner.TestRunner" time="11.095">
+    <system-out><![CDATA[
+Scenario Outline: Verify user can select different radio buttons &amp#27;[90m# src/test/resources/features/PracticePage.feature:12&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI select the &amp#27;[0m&amp#27;[32m&amp#27;[1m"Honda"&amp#27;[0m&amp#27;[32m radio button&amp#27;[0m                         &amp#27;[90m# stepDefinations.PracticePageSteps.i_select_the_radio_button(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe &amp#27;[0m&amp#27;[32m&amp#27;[1m"Honda"&amp#27;[0m&amp#27;[32m radio button should be selected&amp#27;[0m               &amp#27;[90m# stepDefinations.PracticePageSteps.the_radio_button_should_be_selected(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 16, 2025 3:14:48 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 134
+Mar 16, 2025 3:14:48 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 134.0.6998.89. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.19.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;CheckBox Verify user can check and uncheck checkboxes&quot;, &quot;Automate LetsKodeIt Practice Page&quot;](5)" classname="Runner.TestRunner" time="10.442">
+    <system-out><![CDATA[
+Scenario Outline: CheckBox Verify user can check and uncheck checkboxes &amp#27;[90m# src/test/resources/features/PracticePage.feature:21&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI select the &amp#27;[0m&amp#27;[32m&amp#27;[1m"BMW"&amp#27;[0m&amp#27;[32m checkbox&amp#27;[0m                                      &amp#27;[90m# stepDefinations.PracticePageSteps.i_select_the_checkbox(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe &amp#27;[0m&amp#27;[32m&amp#27;[1m"BMW"&amp#27;[0m&amp#27;[32m checkbox should be selected&amp#27;[0m                            &amp#27;[90m# stepDefinations.PracticePageSteps.the_checkbox_should_be_selected(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI deselect the &amp#27;[0m&amp#27;[32m&amp#27;[1m"BMW"&amp#27;[0m&amp#27;[32m checkbox&amp#27;[0m                                    &amp#27;[90m# stepDefinations.PracticePageSteps.i_deselect_the_checkbox(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe &amp#27;[0m&amp#27;[32m&amp#27;[1m"BMW"&amp#27;[0m&amp#27;[32m checkbox should not be selected&amp#27;[0m                        &amp#27;[90m# stepDefinations.PracticePageSteps.the_checkbox_should_not_be_selected(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 16, 2025 3:14:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 134
+Mar 16, 2025 3:14:59 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 134.0.6998.89. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.19.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;CheckBox Verify user can check and uncheck checkboxes&quot;, &quot;Automate LetsKodeIt Practice Page&quot;](6)" classname="Runner.TestRunner" time="10.608">
+    <system-out><![CDATA[
+Scenario Outline: CheckBox Verify user can check and uncheck checkboxes &amp#27;[90m# src/test/resources/features/PracticePage.feature:22&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI select the &amp#27;[0m&amp#27;[32m&amp#27;[1m"Benz"&amp#27;[0m&amp#27;[32m checkbox&amp#27;[0m                                     &amp#27;[90m# stepDefinations.PracticePageSteps.i_select_the_checkbox(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe &amp#27;[0m&amp#27;[32m&amp#27;[1m"Benz"&amp#27;[0m&amp#27;[32m checkbox should be selected&amp#27;[0m                           &amp#27;[90m# stepDefinations.PracticePageSteps.the_checkbox_should_be_selected(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI deselect the &amp#27;[0m&amp#27;[32m&amp#27;[1m"Benz"&amp#27;[0m&amp#27;[32m checkbox&amp#27;[0m                                   &amp#27;[90m# stepDefinations.PracticePageSteps.i_deselect_the_checkbox(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe &amp#27;[0m&amp#27;[32m&amp#27;[1m"Benz"&amp#27;[0m&amp#27;[32m checkbox should not be selected&amp#27;[0m                       &amp#27;[90m# stepDefinations.PracticePageSteps.the_checkbox_should_not_be_selected(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 16, 2025 3:15:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 134
+Mar 16, 2025 3:15:10 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 134.0.6998.89. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.19.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;CheckBox Verify user can check and uncheck checkboxes&quot;, &quot;Automate LetsKodeIt Practice Page&quot;](7)" classname="Runner.TestRunner" time="11.343">
+    <system-out><![CDATA[
+Scenario Outline: CheckBox Verify user can check and uncheck checkboxes &amp#27;[90m# src/test/resources/features/PracticePage.feature:23&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI select the &amp#27;[0m&amp#27;[32m&amp#27;[1m"Honda"&amp#27;[0m&amp#27;[32m checkbox&amp#27;[0m                                    &amp#27;[90m# stepDefinations.PracticePageSteps.i_select_the_checkbox(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe &amp#27;[0m&amp#27;[32m&amp#27;[1m"Honda"&amp#27;[0m&amp#27;[32m checkbox should be selected&amp#27;[0m                          &amp#27;[90m# stepDefinations.PracticePageSteps.the_checkbox_should_be_selected(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI deselect the &amp#27;[0m&amp#27;[32m&amp#27;[1m"Honda"&amp#27;[0m&amp#27;[32m checkbox&amp#27;[0m                                  &amp#27;[90m# stepDefinations.PracticePageSteps.i_deselect_the_checkbox(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe &amp#27;[0m&amp#27;[32m&amp#27;[1m"Honda"&amp#27;[0m&amp#27;[32m checkbox should not be selected&amp#27;[0m                      &amp#27;[90m# stepDefinations.PracticePageSteps.the_checkbox_should_not_be_selected(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 16, 2025 3:15:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 134
+Mar 16, 2025 3:15:20 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 134.0.6998.89. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.19.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify user can open a new window and switch back&quot;, &quot;Automate LetsKodeIt Practice Page&quot;](8)" classname="Runner.TestRunner" time="10.98">
+    <system-out><![CDATA[
+Scenario: Verify user can open a new window and switch back &amp#27;[90m# src/test/resources/features/PracticePage.feature:24&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI click the Open Window button&amp#27;[0m                       &amp#27;[90m# stepDefinations.PracticePageSteps.i_click_the_open_window_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32ma new window should open&amp#27;[0m                             &amp#27;[90m# stepDefinations.PracticePageSteps.a_new_window_should_open()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI switch to the new window&amp#27;[0m                           &amp#27;[90m# stepDefinations.PracticePageSteps.i_switch_to_the_new_window()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI close the new window and switch back&amp#27;[0m                &amp#27;[90m# stepDefinations.PracticePageSteps.i_close_the_new_window_and_switch_back()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 16, 2025 3:15:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 134
+Mar 16, 2025 3:15:32 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 134.0.6998.89. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.19.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify user can open a new tab and switch back&quot;, &quot;Automate LetsKodeIt Practice Page&quot;](9)" classname="Runner.TestRunner" time="11.134">
+    <system-out><![CDATA[
+Scenario: Verify user can open a new tab and switch back &amp#27;[90m# src/test/resources/features/PracticePage.feature:30&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI click the Open Tab link&amp#27;[0m                         &amp#27;[90m# stepDefinations.PracticePageSteps.i_click_the_open_tab_link()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32ma new tab should open&amp#27;[0m                             &amp#27;[90m# stepDefinations.PracticePageSteps.a_new_tab_should_open()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI switch to the new tab&amp#27;[0m                           &amp#27;[90m# stepDefinations.PracticePageSteps.i_switch_to_the_new_tab()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI close the new tab and switch back&amp#27;[0m                &amp#27;[90m# stepDefinations.PracticePageSteps.i_close_the_new_tab_and_switch_back()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 16, 2025 3:15:43 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 134
+Mar 16, 2025 3:15:43 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 134.0.6998.89. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.19.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;verify user can select from the  drop down menu&quot;, &quot;Automate LetsKodeIt Practice Page&quot;](10)" classname="Runner.TestRunner" time="10.505">
+    <system-out><![CDATA[
+Scenario: verify user can select from the  drop down menu &amp#27;[90m# src/test/resources/features/PracticePage.feature:41&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI select &amp#27;[0m&amp#27;[32m&amp#27;[1m"BMW"&amp#27;[0m&amp#27;[32m from the dropdown&amp#27;[0m                   &amp#27;[90m# stepDefinations.PracticePageSteps.i_select_from_the_dropdown(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32m&amp#27;[0m&amp#27;[32m&amp#27;[1m"BMW"&amp#27;[0m&amp#27;[32m should be selected in the dropdown&amp#27;[0m           &amp#27;[90m# stepDefinations.PracticePageSteps.should_be_selected_in_the_dropdown(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 16, 2025 3:15:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 134
+Mar 16, 2025 3:15:54 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 134.0.6998.89. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.19.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;verify user can select from the  drop down menu&quot;, &quot;Automate LetsKodeIt Practice Page&quot;](11)" classname="Runner.TestRunner" time="10.439">
+    <system-out><![CDATA[
+Scenario: verify user can select from the  drop down menu &amp#27;[90m# src/test/resources/features/PracticePage.feature:42&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI select &amp#27;[0m&amp#27;[32m&amp#27;[1m"Benz"&amp#27;[0m&amp#27;[32m from the dropdown&amp#27;[0m                  &amp#27;[90m# stepDefinations.PracticePageSteps.i_select_from_the_dropdown(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32m&amp#27;[0m&amp#27;[32m&amp#27;[1m"Benz"&amp#27;[0m&amp#27;[32m should be selected in the dropdown&amp#27;[0m          &amp#27;[90m# stepDefinations.PracticePageSteps.should_be_selected_in_the_dropdown(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 16, 2025 3:16:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 134
+Mar 16, 2025 3:16:04 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 134.0.6998.89. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.19.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;verify user can select from the  drop down menu&quot;, &quot;Automate LetsKodeIt Practice Page&quot;](12)" classname="Runner.TestRunner" time="10.655">
+    <system-out><![CDATA[
+Scenario: verify user can select from the  drop down menu &amp#27;[90m# src/test/resources/features/PracticePage.feature:43&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI select &amp#27;[0m&amp#27;[32m&amp#27;[1m"Honda"&amp#27;[0m&amp#27;[32m from the dropdown&amp#27;[0m                 &amp#27;[90m# stepDefinations.PracticePageSteps.i_select_from_the_dropdown(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32m&amp#27;[0m&amp#27;[32m&amp#27;[1m"Honda"&amp#27;[0m&amp#27;[32m should be selected in the dropdown&amp#27;[0m         &amp#27;[90m# stepDefinations.PracticePageSteps.should_be_selected_in_the_dropdown(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 16, 2025 3:16:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 134
+Mar 16, 2025 3:16:15 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 134.0.6998.89. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.19.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify user can select multiple options from the Multipleselectoption&quot;, &quot;Automate LetsKodeIt Practice Page&quot;](13)" classname="Runner.TestRunner" time="11.421">
+    <system-out><![CDATA[
+Scenario: Verify user can select multiple options from the Multipleselectoption  &amp#27;[90m# src/test/resources/features/PracticePage.feature:45&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI select the following options from the multiple select dropdown:&amp#27;[0m         &amp#27;[90m# stepDefinations.PracticePageSteps.iSelectTheFollowingOptions(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | Apple  |
+    | Orange |
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe following options should be selected in the multiple select dropdown:&amp#27;[0m &amp#27;[90m# stepDefinations.PracticePageSteps.theFollowingOptionsShouldBeSelected(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | Apple  |
+    | Orange |
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI deselect &amp#27;[0m&amp#27;[32m&amp#27;[1m"Orange"&amp#27;[0m&amp#27;[32m from the multiple select dropdown&amp#27;[0m                     &amp#27;[90m# stepDefinations.PracticePageSteps.iDeselectFromTheMultipleSelectDropdown(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe following options should be selected in the multiple select dropdown:&amp#27;[0m &amp#27;[90m# stepDefinations.PracticePageSteps.theFollowingOptionsShouldBeSelected(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | Apple |
+]]></system-out>
+    <system-err><![CDATA[Mar 16, 2025 3:16:25 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 134
+Mar 16, 2025 3:16:25 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 134.0.6998.89. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.19.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify user can Disable and Enable the input field&quot;, &quot;Automate LetsKodeIt Practice Page&quot;](14)" classname="Runner.TestRunner" time="11.296">
+    <system-out><![CDATA[
+Scenario: Verify user can Disable and Enable the input field &amp#27;[90m# src/test/resources/features/PracticePage.feature:56&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI click on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"Disable"&amp#27;[0m&amp#27;[32m button&amp#27;[0m                       &amp#27;[90m# stepDefinations.PracticePageSteps.iClickOnTheButton(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe input field should be disabled&amp#27;[0m                    &amp#27;[90m# stepDefinations.PracticePageSteps.theInputFieldShouldBeDisabled()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI click on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"Enable"&amp#27;[0m&amp#27;[32m button&amp#27;[0m                        &amp#27;[90m# stepDefinations.PracticePageSteps.iClickOnTheButton(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe input field should be enabled&amp#27;[0m                     &amp#27;[90m# stepDefinations.PracticePageSteps.theInputFieldShouldBeEnabled()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 16, 2025 3:16:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 134
+Mar 16, 2025 3:16:37 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 134.0.6998.89. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.19.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify user can hide and show the input field&quot;, &quot;Automate LetsKodeIt Practice Page&quot;](15)" classname="Runner.TestRunner" time="11.44">
+    <system-out><![CDATA[
+Scenario: Verify user can hide and show the input field &amp#27;[90m# src/test/resources/features/PracticePage.feature:63&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI click on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"Hide"&amp#27;[0m&amp#27;[32m button&amp#27;[0m                     &amp#27;[90m# stepDefinations.PracticePageSteps.iClickOnTheButton(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe input field should be hidden&amp#27;[0m                 &amp#27;[90m# stepDefinations.PracticePageSteps.theInputFieldShouldBeHidden()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI click on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"Show"&amp#27;[0m&amp#27;[32m button&amp#27;[0m                     &amp#27;[90m# stepDefinations.PracticePageSteps.iClickOnTheButton(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe input field should be visible&amp#27;[0m                &amp#27;[90m# stepDefinations.PracticePageSteps.theInputFieldShouldBeVisible()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 16, 2025 3:16:48 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 134
+Mar 16, 2025 3:16:48 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 134.0.6998.89. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.19.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify Alert and Confirm popups&quot;, &quot;Automate LetsKodeIt Practice Page&quot;](16)" classname="Runner.TestRunner" time="11.148">
+    <system-out><![CDATA[
+Scenario: Verify Alert and Confirm popups                         &amp#27;[90m# src/test/resources/features/PracticePage.feature:68&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI enter &amp#27;[0m&amp#27;[32m&amp#27;[1m"Aditya Reddy"&amp#27;[0m&amp#27;[32m in the name field&amp#27;[0m                   &amp#27;[90m# stepDefinations.PracticePageSteps.iEnterInTheNameField(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"Alert"&amp#27;[0m&amp#27;[32m button&amp#27;[0m                               &amp#27;[90m# stepDefinations.PracticePageSteps.iClickOnTheButton(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32man alert should appear with text containing &amp#27;[0m&amp#27;[32m&amp#27;[1m"Aditya Reddy"&amp#27;[0m &amp#27;[90m# stepDefinations.PracticePageSteps.anAlertShouldAppearWithTextContaining(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI click on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"Confirm"&amp#27;[0m&amp#27;[32m button&amp#27;[0m                            &amp#27;[90m# stepDefinations.PracticePageSteps.iClickOnTheButton(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32ma confirmation alert should appear&amp#27;[0m                         &amp#27;[90m# stepDefinations.PracticePageSteps.aConfirmationAlertShouldAppear()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI accept the confirmation alert&amp#27;[0m                             &amp#27;[90m# stepDefinations.PracticePageSteps.iAcceptTheConfirmationAlert()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 16, 2025 3:17:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 134
+Mar 16, 2025 3:17:00 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 134.0.6998.89. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.19.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify Mouse Hover functionality&quot;, &quot;Automate LetsKodeIt Practice Page&quot;](17)" classname="Runner.TestRunner" time="12.145">
+    <failure message="element click intercepted: Element &lt;a href=&quot;&quot;&gt;...&lt;/a&gt; is not clickable at point (282, 656). Other element would receive the click: &lt;a href=&quot;#top&quot;&gt;...&lt;/a&gt;&#10;  (Session info: chrome=134.0.6998.89)&#10;Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [9c5198e5c83d2b5a862c7d759c005414, clickElement {id=f.240CC001FAD1BDB5998A1A90C0676752.d.BA46AEE846581E257C545B8D73586558.e.91}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\ADITYA\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55783}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55783/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on windows (9c5198e5c83d2b5a862c7d759c005414)] -&gt; xpath: //div[@class=&apos;mouse-hover-content&apos;]/a[text()=&apos;Reload&apos;]]&#10;Session ID: 9c5198e5c83d2b5a862c7d759c005414" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a href="">...</a> is not clickable at point (282, 656). Other element would receive the click: <a href="#top">...</a>
+  (Session info: chrome=134.0.6998.89)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9c5198e5c83d2b5a862c7d759c005414, clickElement {id=f.240CC001FAD1BDB5998A1A90C0676752.d.BA46AEE846581E257C545B8D73586558.e.91}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\ADITYA\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55783}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55783/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (9c5198e5c83d2b5a862c7d759c005414)] -> xpath: //div[@class='mouse-hover-content']/a[text()='Reload']]
+Session ID: 9c5198e5c83d2b5a862c7d759c005414
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at pages.PracticePage.clickMouseHoverOption(PracticePage.java:337)
+	at stepDefinations.PracticePageSteps.iClickOnTheOption(PracticePageSteps.java:213)
+	at ✽.I click on the "Reload" option(file:///C:/Users/ADITYA/eclipse-workspace/Capstone_Project/./src/test/resources/features/PracticePage.feature:81)
+]]></failure>
+    <system-out><![CDATA[
+Scenario: Verify Mouse Hover functionality       &amp#27;[90m# src/test/resources/features/PracticePage.feature:76&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI click on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"Mouse Hover"&amp#27;[0m&amp#27;[32m button&amp#27;[0m       &amp#27;[90m# stepDefinations.PracticePageSteps.iClickOnTheButton(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe mouse hover options should be visible&amp#27;[0m &amp#27;[90m# stepDefinations.PracticePageSteps.theMouseHoverOptionsShouldBeVisible()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI click on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"Top"&amp#27;[0m&amp#27;[32m option&amp#27;[0m               &amp#27;[90m# stepDefinations.PracticePageSteps.iClickOnTheOption(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe page should scroll to the top&amp#27;[0m         &amp#27;[90m# stepDefinations.PracticePageSteps.thePageShouldScrollToTheTop()&amp#27;[0m
+  &amp#27;[31mAnd &amp#27;[0m&amp#27;[31mI click on the &amp#27;[0m&amp#27;[31m&amp#27;[1m"Reload"&amp#27;[0m&amp#27;[31m option&amp#27;[0m             &amp#27;[90m# stepDefinations.PracticePageSteps.iClickOnTheOption(java.lang.String)&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="">...</a> is not clickable at point (282, 656). Other element would receive the click: <a href="#top">...</a>
+        (Session info: chrome=134.0.6998.89)
+      Build info: version: '4.19.1', revision: 'abe0ee07dc'
+      System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Command: [9c5198e5c83d2b5a862c7d759c005414, clickElement {id=f.240CC001FAD1BDB5998A1A90C0676752.d.BA46AEE846581E257C545B8D73586558.e.91}]
+      Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\ADITYA\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55783}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55783/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+      Element: [[ChromeDriver: chrome on windows (9c5198e5c83d2b5a862c7d759c005414)] -> xpath: //div[@class='mouse-hover-content']/a[text()='Reload']]
+      Session ID: 9c5198e5c83d2b5a862c7d759c005414
+      	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+      	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+      	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+      	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+      	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+      	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+      	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+      	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+      	at pages.PracticePage.clickMouseHoverOption(PracticePage.java:337)
+      	at stepDefinations.PracticePageSteps.iClickOnTheOption(PracticePageSteps.java:213)
+      	at ✽.I click on the "Reload" option(file:///C:/Users/ADITYA/eclipse-workspace/Capstone_Project/./src/test/resources/features/PracticePage.feature:81)&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mthe page should reload&amp#27;[0m                    &amp#27;[90m# stepDefinations.PracticePageSteps.thePageShouldReload()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 16, 2025 3:17:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 134
+Mar 16, 2025 3:17:11 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 134.0.6998.89. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.19.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify Web Table Data&quot;, &quot;Automate LetsKodeIt Practice Page&quot;](18)" classname="Runner.TestRunner" time="10.398">
+    <failure message="Table data does not match!: lists don&apos;t have the same size expected [4] but found [3]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Table data does not match!: lists don't have the same size expected [4] but found [3]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1419)
+	at org.testng.Assert.assertEquals(Assert.java:1383)
+	at org.testng.Assert.assertEquals(Assert.java:1630)
+	at stepDefinations.PracticePageSteps.theTableShouldContain(PracticePageSteps.java:241)
+	at ✽.the table should contain the following courses:(file:///C:/Users/ADITYA/eclipse-workspace/Capstone_Project/./src/test/resources/features/PracticePage.feature:86)
+]]></failure>
+    <system-out><![CDATA[
+Scenario: Verify Web Table Data                              &amp#27;[90m# src/test/resources/features/PracticePage.feature:85&amp#27;[0m
+Actual Table Data: [[Let's Kode It, Selenium WebDriver With Java, 35], [Let's Kode It, Python Programming Language, 30], [Let's Kode It, JavaScript Programming Language, 25]]
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mthe table should contain the following courses:&amp#27;[0m       &amp#27;[90m# stepDefinations.PracticePageSteps.theTableShouldContain(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | Author        | Course                          | Price |
+    | Let's Kode It | Selenium WebDriver With Java    | 35    |
+    | Let's Kode It | Python Programming Language     | 30    |
+    | Let's Kode It | JavaScript Programming Language | 25    |
+      &amp#27;[31mjava.lang.AssertionError: Table data does not match!: lists don't have the same size expected [4] but found [3]
+      	at org.testng.Assert.fail(Assert.java:111)
+      	at org.testng.Assert.failNotEquals(Assert.java:1578)
+      	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+      	at org.testng.Assert.assertEquals(Assert.java:132)
+      	at org.testng.Assert.assertEquals(Assert.java:1419)
+      	at org.testng.Assert.assertEquals(Assert.java:1383)
+      	at org.testng.Assert.assertEquals(Assert.java:1630)
+      	at stepDefinations.PracticePageSteps.theTableShouldContain(PracticePageSteps.java:241)
+      	at ✽.the table should contain the following courses:(file:///C:/Users/ADITYA/eclipse-workspace/Capstone_Project/./src/test/resources/features/PracticePage.feature:86)&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI search for the course &amp#27;[0m&amp#27;[36m&amp#27;[1m"Python Programming Language"&amp#27;[0m &amp#27;[90m# stepDefinations.PracticePageSteps.iSearchForTheCourse(java.lang.String)&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mthe price should be &amp#27;[0m&amp#27;[36m&amp#27;[1m"30"&amp#27;[0m                              &amp#27;[90m# stepDefinations.PracticePageSteps.thePriceShouldBe(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 16, 2025 3:17:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 134
+Mar 16, 2025 3:17:23 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 134.0.6998.89. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.19.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Successful Registration with valid credentials&quot;, &quot;User Registration and Login&quot;](19)" classname="Runner.TestRunner" time="27.265">
+    <failure message="Expected condition failed: waiting for Attribute or property &apos;aria-checked&apos; to be &apos;true&apos;. Current value: &apos;false&apos; (tried for 10 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\ADITYA\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55914}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55914/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: a3a325c0edd567208aa6f4ca0c3e8cf6" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for Attribute or property 'aria-checked' to be 'true'. Current value: 'false' (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\ADITYA\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55914}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55914/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a3a325c0edd567208aa6f4ca0c3e8cf6
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at pages.SignUpPage.CapthaHandle(SignUpPage.java:79)
+	at stepDefinations.RegistratioSteps.the_user_ticks_the_captcha_checkbox(RegistratioSteps.java:54)
+	at ✽.the user ticks the captcha checkbox(file:///C:/Users/ADITYA/eclipse-workspace/Capstone_Project/./src/test/resources/features/RegistrationAndLogin.feature:12)
+]]></failure>
+    <system-out><![CDATA[
+Scenario Outline: Successful Registration with valid credentials                                              &amp#27;[90m# src/test/resources/features/RegistrationAndLogin.feature:20&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is on the Letskodeit Practise homepage&amp#27;[0m                                                           &amp#27;[90m# stepDefinations.RegistratioSteps.user_is_on_the_letskodeit_practise_homepage()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user clicks the Sign In link&amp#27;[0m                                                                       &amp#27;[90m# stepDefinations.RegistratioSteps.the_user_clicks_the_sign_in_link()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe user is in the login page&amp#27;[0m                                                                          &amp#27;[90m# stepDefinations.RegistratioSteps.the_user_is_in_the_login_page()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe user clicks on the register link&amp#27;[0m                                                                   &amp#27;[90m# stepDefinations.RegistratioSteps.the_user_clicks_on_the_register_link()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe registration page is displayed on the screen&amp#27;[0m                                                       &amp#27;[90m# stepDefinations.RegistratioSteps.the_registration_page_is_displayed_on_the_screen()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user enters &amp#27;[0m&amp#27;[32m&amp#27;[1m"Adithya Reddy"&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m"Gooli"&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m"Aditya123456@gmail.com"&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m"Aditya@1"&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m"Aditya@1"&amp#27;[0m &amp#27;[90m# stepDefinations.RegistratioSteps.the_user_enters_and_and_and_and(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[31mAnd &amp#27;[0m&amp#27;[31mthe user ticks the captcha checkbox&amp#27;[0m                                                                     &amp#27;[90m# stepDefinations.RegistratioSteps.the_user_ticks_the_captcha_checkbox()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for Attribute or property 'aria-checked' to be 'true'. Current value: 'false' (tried for 10 second(s) with 500 milliseconds interval)
+      Build info: version: '4.19.1', revision: 'abe0ee07dc'
+      System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\ADITYA\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55914}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55914/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+      Session ID: a3a325c0edd567208aa6f4ca0c3e8cf6
+      	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+      	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+      	at pages.SignUpPage.CapthaHandle(SignUpPage.java:79)
+      	at stepDefinations.RegistratioSteps.the_user_ticks_the_captcha_checkbox(RegistratioSteps.java:54)
+      	at ✽.the user ticks the captcha checkbox(file:///C:/Users/ADITYA/eclipse-workspace/Capstone_Project/./src/test/resources/features/RegistrationAndLogin.feature:12)&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mthe user clicks the signup button&amp#27;[0m                                                                      &amp#27;[90m# stepDefinations.RegistratioSteps.the_user_clicks_the_signup_button()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mthe user sees the My Courses page&amp#27;[0m                                                                      &amp#27;[90m# stepDefinations.RegistratioSteps.the_user_sees_the_my_courses_page()&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mthe user clicks the Logout button&amp#27;[0m                                                                      &amp#27;[90m# stepDefinations.LoginSteps.the_user_clicks_the_Logout_button()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mthe user is redirected to the homepage&amp#27;[0m                                                                 &amp#27;[90m# stepDefinations.LoginSteps.the_user_is_redirected_to_the_homepage()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 16, 2025 3:17:33 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 134
+Mar 16, 2025 3:17:33 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 134.0.6998.89. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.19.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Successful Login with valid credentials&quot;, &quot;User Registration and Login&quot;](20)" classname="Runner.TestRunner" time="22.741">
+    <failure message="Expected condition failed: waiting for title to contain &quot;My Courses&quot;. Current title: &quot;Login&quot; (tried for 10 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\ADITYA\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56006}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56006/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: ef406ec0f9b4772e8a9fe8ebff292f2d" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for title to contain "My Courses". Current title: "Login" (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\ADITYA\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56006}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56006/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ef406ec0f9b4772e8a9fe8ebff292f2d
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at pages.LoginPage.isMyCoursesPageDisplayed(LoginPage.java:49)
+	at stepDefinations.LoginSteps.the_user_is_redirected_to_the_My_Courses_page(LoginSteps.java:34)
+	at ✽.the user is redirected to the My Courses page(file:///C:/Users/ADITYA/eclipse-workspace/Capstone_Project/./src/test/resources/features/RegistrationAndLogin.feature:25)
+]]></failure>
+    <system-out><![CDATA[
+Scenario Outline: Successful Login with valid credentials      &amp#27;[90m# src/test/resources/features/RegistrationAndLogin.feature:31&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is on the Letskodeit Practise homepage&amp#27;[0m            &amp#27;[90m# stepDefinations.RegistratioSteps.user_is_on_the_letskodeit_practise_homepage()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user clicks the Sign In link&amp#27;[0m                        &amp#27;[90m# stepDefinations.RegistratioSteps.the_user_clicks_the_sign_in_link()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe user is in the login page&amp#27;[0m                           &amp#27;[90m# stepDefinations.RegistratioSteps.the_user_is_in_the_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user enters &amp#27;[0m&amp#27;[32m&amp#27;[1m"Aditya123456@gmail.com"&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m"Aditya@1"&amp#27;[0m &amp#27;[90m# stepDefinations.LoginSteps.the_user_enters_and(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe user clicks the login button for a successful login&amp#27;[0m  &amp#27;[90m# stepDefinations.LoginSteps.the_user_clicks_the_login_button()&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mthe user is redirected to the My Courses page&amp#27;[0m           &amp#27;[90m# stepDefinations.LoginSteps.the_user_is_redirected_to_the_My_Courses_page()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to contain "My Courses". Current title: "Login" (tried for 10 second(s) with 500 milliseconds interval)
+      Build info: version: '4.19.1', revision: 'abe0ee07dc'
+      System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.89, chrome: {chromedriverVersion: 134.0.6998.88 (7e3d5c978c6d..., userDataDir: C:\Users\ADITYA\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56006}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56006/devtoo..., se:cdpVersion: 134.0.6998.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+      Session ID: ef406ec0f9b4772e8a9fe8ebff292f2d
+      	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+      	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+      	at pages.LoginPage.isMyCoursesPageDisplayed(LoginPage.java:49)
+      	at stepDefinations.LoginSteps.the_user_is_redirected_to_the_My_Courses_page(LoginSteps.java:34)
+      	at ✽.the user is redirected to the My Courses page(file:///C:/Users/ADITYA/eclipse-workspace/Capstone_Project/./src/test/resources/features/RegistrationAndLogin.feature:25)&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mthe user clicks the Logout button&amp#27;[0m                       &amp#27;[90m# stepDefinations.LoginSteps.the_user_clicks_the_Logout_button()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mthe user is redirected to the homepage&amp#27;[0m                  &amp#27;[90m# stepDefinations.LoginSteps.the_user_is_redirected_to_the_homepage()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 16, 2025 3:18:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 134
+Mar 16, 2025 3:18:01 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 134.0.6998.89. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.19.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Successful Login with valid credentials&quot;, &quot;User Registration and Login&quot;](21)" classname="Runner.TestRunner" time="15.371">
+    <system-out><![CDATA[
+Scenario Outline: Successful Login with valid credentials                &amp#27;[90m# src/test/resources/features/RegistrationAndLogin.feature:42&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is on the Letskodeit Practise homepage&amp#27;[0m                      &amp#27;[90m# stepDefinations.RegistratioSteps.user_is_on_the_letskodeit_practise_homepage()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user clicks the Sign In link&amp#27;[0m                                  &amp#27;[90m# stepDefinations.RegistratioSteps.the_user_clicks_the_sign_in_link()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe user is in the login page&amp#27;[0m                                     &amp#27;[90m# stepDefinations.RegistratioSteps.the_user_is_in_the_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user enters WongCrendtials &amp#27;[0m&amp#27;[32m&amp#27;[1m"Aditya1@gmail.com"&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m"Aditya@1"&amp#27;[0m &amp#27;[90m# stepDefinations.InavlidLoginSteps.theUserEntersWrongCredentials(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe user clicks the login button for an unsuccessful login&amp#27;[0m         &amp#27;[90m# stepDefinations.InavlidLoginSteps.theUserClicksTheLoginButton()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe login page will show &amp#27;[0m&amp#27;[32m&amp#27;[1m"Incorrect login details"&amp#27;[0m&amp#27;[32m in the display&amp#27;[0m &amp#27;[90m# stepDefinations.InavlidLoginSteps.the_LoginPage_Will_Show_ErrorMessage(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user clicks the Forget Password button&amp#27;[0m                        &amp#27;[90m# stepDefinations.InavlidLoginSteps.theUserClicksForgetPasswordButton()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe user is redirected to the Password RestPage&amp#27;[0m                   &amp#27;[90m# stepDefinations.InavlidLoginSteps.theUserIsRedirectedToPasswordResetPage()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Mar 16, 2025 3:18:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 134
+Mar 16, 2025 3:18:23 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 134.0.6998.89. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.19.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+</testsuite>

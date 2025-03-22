@@ -1,0 +1,6 @@
+features = {".\\src\\test\\resources\\features\\Homepage.feature",
+				".\\src\\test\\resources\\features\\PracticePage.feature",
+				".\\src\\test\\resources\\features\\RegistrationAndLogin.feature",
+				".\\src\\test\\resources\\features\\ALLCourses.feature",
+				
+		}
